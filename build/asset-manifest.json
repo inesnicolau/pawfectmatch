@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/pawfectmatch/static/css/main.153a4bd7.css",
+    "main.js": "/pawfectmatch/static/js/main.29fabec3.js",
+    "static/js/453.2e93b509.chunk.js": "/pawfectmatch/static/js/453.2e93b509.chunk.js",
+    "static/media/pexels-sims1217-16465570.jpg": "/pawfectmatch/static/media/pexels-sims1217-16465570.1bff95d382aa0afa80ba.jpg",
+    "static/media/pexels-sims1217-12195433.jpg": "/pawfectmatch/static/media/pexels-sims1217-12195433.92b4986273f1d21d7114.jpg",
+    "static/media/croamo.jpg": "/pawfectmatch/static/media/croamo.9fe842b91065787a2f61.jpg",
+    "static/media/pexels-sims1217-16465583.jpg": "/pawfectmatch/static/media/pexels-sims1217-16465583.02050f9719d34b239a73.jpg",
+    "static/media/pexels-plato-terentev-3804555-9810765.jpg": "/pawfectmatch/static/media/pexels-plato-terentev-3804555-9810765.101ea0cbd3dedb9d2641.jpg",
+    "static/media/pexels-sims1217-16465605.jpg": "/pawfectmatch/static/media/pexels-sims1217-16465605.4e8b0fad76d91cc1ef51.jpg",
+    "static/media/pexels-sims1217-12195429.jpg": "/pawfectmatch/static/media/pexels-sims1217-12195429.f766b275b03587cfdd94.jpg",
+    "static/media/pexels-plato-terentev-3804555-9810761.jpg": "/pawfectmatch/static/media/pexels-plato-terentev-3804555-9810761.8a043710ad87600126c0.jpg",
+    "static/media/pexels-sims1217-12195409.jpg": "/pawfectmatch/static/media/pexels-sims1217-12195409.a42d48fa192b96ee3aa8.jpg",
+    "static/media/pexels-sims1217-12195423.jpg": "/pawfectmatch/static/media/pexels-sims1217-12195423.ec12b8a7a58aacd90315.jpg",
+    "index.html": "/pawfectmatch/index.html",
+    "main.153a4bd7.css.map": "/pawfectmatch/static/css/main.153a4bd7.css.map",
+    "main.29fabec3.js.map": "/pawfectmatch/static/js/main.29fabec3.js.map",
+    "453.2e93b509.chunk.js.map": "/pawfectmatch/static/js/453.2e93b509.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.153a4bd7.css",
+    "static/js/main.29fabec3.js"
+  ]
+}
