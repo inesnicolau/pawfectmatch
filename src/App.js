@@ -17,7 +17,7 @@ function App() {
       <div>
         <Routes>
           {/* Login route is the default route */}
-          <Route path="/" element={<Login setUser={setUser} />} />
+          <Route path="/pawfectmatch/" element={<Login setUser={setUser} />} />
           <Route path="/shelter" element={<ShelterList />} />
           <Route path="/shelter/:id" element={<ShelterDetails />} />
           <Route path="/volunteer/:id" element={<VolunteerForm />} />
