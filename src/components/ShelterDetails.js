@@ -11,6 +11,7 @@ const ShelterDetails = () => {
   if (!shelter) return <p>Shelter not found</p>;
 
   return (
+    <div class="main-container">
     <div className="shelter-details">
       {/* Simple Back Arrow */}
       <button onClick={() => navigate('/shelter')} className="back-arrow">←</button>
@@ -29,7 +30,9 @@ const ShelterDetails = () => {
       <Link to={`/volunteer/${shelter.id}`} className="volunteer-button">
         + Volunteer here!
       </Link>
+      
     </div>
+    <div class="main-container"></div></div>
   );
 };
 

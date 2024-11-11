@@ -7,11 +7,15 @@ const CalendarView = () => {
   const [date, setDate] = useState(new Date());
 
   return (
-    <div className="calendar-view">
-      <h2>My Experiences</h2>
-      <Calendar value={date} onChange={setDate} className="custom-calendar" />
-      <p className="selected-date">Selected date: {date.toDateString()}</p>
+    <div class="main-container">
+      <div className="calendar-view">
+        <h2>My Experiences</h2>
+        <Calendar value={date} onChange={setDate} className="custom-calendar" />
+        <p className="selected-date">Selected date: {date.toDateString()}</p>
+      </div>
+      <div class="main-container"></div>
     </div>
+
   );
 };
 

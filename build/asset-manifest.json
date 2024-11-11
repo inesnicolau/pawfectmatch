@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pawfectmatch/static/css/main.153a4bd7.css",
-    "main.js": "/pawfectmatch/static/js/main.29fabec3.js",
+    "main.js": "/pawfectmatch/static/js/main.99fb2ea0.js",
     "static/js/453.2e93b509.chunk.js": "/pawfectmatch/static/js/453.2e93b509.chunk.js",
     "static/media/pexels-sims1217-16465570.jpg": "/pawfectmatch/static/media/pexels-sims1217-16465570.1bff95d382aa0afa80ba.jpg",
     "static/media/pexels-sims1217-12195433.jpg": "/pawfectmatch/static/media/pexels-sims1217-12195433.92b4986273f1d21d7114.jpg",
@@ -15,11 +15,11 @@
     "static/media/pexels-sims1217-12195423.jpg": "/pawfectmatch/static/media/pexels-sims1217-12195423.ec12b8a7a58aacd90315.jpg",
     "index.html": "/pawfectmatch/index.html",
     "main.153a4bd7.css.map": "/pawfectmatch/static/css/main.153a4bd7.css.map",
-    "main.29fabec3.js.map": "/pawfectmatch/static/js/main.29fabec3.js.map",
+    "main.99fb2ea0.js.map": "/pawfectmatch/static/js/main.99fb2ea0.js.map",
     "453.2e93b509.chunk.js.map": "/pawfectmatch/static/js/453.2e93b509.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.153a4bd7.css",
-    "static/js/main.29fabec3.js"
+    "static/js/main.99fb2ea0.js"
   ]
 }

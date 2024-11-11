@@ -1,5 +1,4 @@
-// src/App.js
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import ShelterList from './components/ShelterList';
 import ShelterDetails from './components/ShelterDetails';
@@ -10,7 +9,21 @@ import Login from './components/Login';
 import './styles.css'; // Ensure your global styles are imported
 
 function App() {
-  const [user, setUser] = useState(null); // Initialize user state
+  // Initialize user state and set it from localStorage if available
+  const [user, setUser] = useState(() => {
+    const savedUser = localStorage.getItem('user');
+    return savedUser ? JSON.parse(savedUser) : null;
+  });
+
+  // Update localStorage whenever the user state changes
+  useEffect(() => {
+    if (user) {
+      localStorage.setItem('user', JSON.stringify(user));
+    } else {
+      localStorage.removeItem('user');
+    }
+  }, [user]); 
+
 
   return (
     <Router>

@@ -4,8 +4,9 @@ import { faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import '../styles.css';
 
-const Profile = () => {
+const Profile = ({ user }) => {
   const [responseMessage, setResponseMessage] = useState("");
+
   const handleButtonClick = (response) => {
     setResponseMessage(`Your response as "${response}" has been submitted.`);
     setTimeout(() => setResponseMessage(""), 3000);
@@ -14,7 +15,7 @@ const Profile = () => {
   return (
     <div className="profile-container">
       <h2>My Profile</h2>
-      <p className="user-name">Beatriz Palma</p>
+      <p className="user-name">{user?.name || "Guest"}</p> {/* Display user name if available */}
       <p>I am a...</p>
       <div className="profile-buttons">
         <button className="profile-button" onClick={() => handleButtonClick("International Student")}>

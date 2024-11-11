@@ -6,6 +6,7 @@ import shelters from '../data/shelters';
 
 const ShelterList = () => {
   return (
+    
     <div className="shelter-list">
       {shelters.map(shelter => (
         <Link to={`/shelter/${shelter.id}`} key={shelter.id} className="shelter-card">
@@ -19,6 +20,7 @@ const ShelterList = () => {
           <p>{shelter.city}</p>
         </Link>
       ))}
+      <div class="main-container"></div>
     </div>
   );
 };

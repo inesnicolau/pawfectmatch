@@ -21,6 +21,7 @@ const VolunteerForm = () => {
   };
 
   return (
+    <div class="main-container">
     <div className="volunteer-form">
       <button onClick={() => navigate(-1)} className="back-arrow">←</button>
       <h2>Volunteer Form</h2>
@@ -51,6 +52,7 @@ const VolunteerForm = () => {
         />
         <button type="submit">Submit</button>
       </form>
+    </div>
     </div>
   );
 };
